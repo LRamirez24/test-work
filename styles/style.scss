@@ -61,68 +61,24 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-textarea {
-    font-size: 3.2rem;
-    padding-left: 1rem;
-}
 
 button {
     background-color: #0367A6;
     border: none;
     color: white;
     padding: 15px 32px;
-    width: 350px;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
+    position: fixed;
+    bottom: 0;
   }
 
-
-/* Intro video styles */
-
-.intro-video {
-    background: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro-text2 h1 {
-    color: white;
-    font-size: 14rem;
-    text-align: center;
-    font-family: 'Six Caps', sans-serif;
-    margin-bottom: 1rem;
-}
-
-.slider {
-    background: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: translateY(100%);
-}
-
-.hide {
-    background: black;
-    overflow: hidden;
-}
-
-.hide span {
-    transform: translateY(100%);
-    display: inline-block;
-}
 
 
 /*Hero section  */
