@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UX/UI Developer based in Los Angeles who loves to design and code. Here are some of my latest designs and work. Click to build amazing websites together.">
+  
+    <!-- <link rel="icon" href="../images/heart.png" /> -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Luis Portfolio | Developer</title>
+</head>
+
+<body>
+    
+
+    <div class="hero">
+        <div class="info" id="box1">
+            <p class="info-2">1</p>           
+        </div>
+        <div class="info2" id="box2">
+            <p class="info-2">2</p>           
+        </div>
+        <div class="info3" id="box3">
+            <p class="info-2">3</p>           
+        </div>
+    </div>
+
+    <div class="new-button">
+        <a href="./page2.html" class="buttonLink" id="myButton">Link Button</a>
+
+        <button class="nextButton" id="next" onclick="nextBox()">Next</button>
+        
+        <button class="nextButton2" id="next2" onclick="nextBox2()">Next</button>
+       
+    </div>
+
+
+    <script>
+        function nextBox() {
+            document.getElementById('box1').style = "Display: none";
+            document.getElementById('box2').style = "Display: flex";
+            document.getElementById('next').style = "Display: none";
+            document.getElementById('next2').style = "Display: inline-block;";
+
+        }
+
+        function nextBox2() {
+            document.getElementById('box1').style = "Display: none";
+            document.getElementById('box2').style = "Display: none";
+            document.getElementById('box3').style = "Display: flex";
+            // document.getElementById('nextButton').style = "Display: none";
+        }
+        
+
+//         function changeBox() {
+//             document.getElementById('box1').style = "Display: none";
+//             document.getElementById('box2').style = "Display: flex";
+
+//     if (document.getElementById("box1").style = "Display: none" && document.getElementById('box2').style == "Display: flex") {
+//         document.getElementById('box2').style = "Display: none";
+//         document.getElementById('box3').style = "Display: flex";
+        
+//     } 
+// }
+
+        </script>
+
+</body>
+
+
+
+</html>
